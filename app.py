@@ -7,7 +7,7 @@ import os, tempfile
 os.environ["TEMP"] = tempfile.gettempdir()
 
 # Load trained model
-model = load_model("mnist_cnn_model_v2.keras", safe_mode=False)
+model = load_model("mnist_cnn_model_v2.keras", safe_mode=True)
 
 st.title("🧠 Handwritten Digit Recognition App")
 st.write("Draw a digit (0–9) below and let the CNN predict it!")
