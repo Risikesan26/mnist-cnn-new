@@ -42,5 +42,5 @@ plt.ylabel('Accuracy')
 plt.legend()
 plt.show()
 
-model.save("mnist_cnn_model.h5")
+model.save("mnist_cnn_model_v2.keras")
 print("Model saved successfully!")
